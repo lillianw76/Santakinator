@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Santakinator</title>
+  <link href="santakinator.css" rel="stylesheet" type="text/css" />
+  <script src="santakinator.js" defer></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <link rel="icon" type="image/x-icon" href="santa.jpg">
+</head>
+
+<body>
+  <img src="sparkle.png" class="s1" id="s1">
+  <img src="sparkle.png" class="s2" id="s2">
+  <img src="sparkle.png" class="s3" id="s3">
+
+  <button class="back-btn" id="back-btn">Back</button>
+  <div class="halfroom">
+    <div class="card">
+      <!-- questions -->
+      <form>
+      <h2 class="q" id="q">What age range is the giftee in?</h2>
+        <div id="c1" class="choices">
+          <label> <input type="radio" id="elem" name="age"> Elementary School</label>
+          <br> 
+          <label> <input type="radio" id="mid" name="age"> Middle School</label>
+          <br>
+          <label> <input type="radio" id="high" name="age"> High School</label>
+          <br>
+          <label> <input type="radio" id="college" name="age"> College</label>
+          <br>
+          <label> <input type="radio" id="younga" name="age"> Young Adult</label>
+          <br>
+          <label> <input type="radio" id="mida" name="age"> Middle Aged</label>
+          <br>
+        </div>
+
+        <div id="sdiv1"> <button class="submit-btn" id="sbtn1">Next</button></div>
+      </form>
+    </div> 
+  </div>
+    
+</body>
+
+</html>
